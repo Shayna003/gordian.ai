@@ -327,7 +327,7 @@ def main():
         </style>
     """, unsafe_allow_html=True)
 
-    st.title("🛡️ Gordian.ai - NPM Package Analyzer")
+    st.title("🛡️ Gordian - AI driven npm package analytics")
     st.markdown("##### An AI-powered dashboard to analyze npm package vulnerabilities, performance, and popularity.")
 
     if 'analyzer' not in st.session_state:
