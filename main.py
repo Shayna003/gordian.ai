@@ -7,8 +7,8 @@ from typing import Dict, List, Optional
 from dataclasses import dataclass
 import logging
 import re
-import altair as alt
-import pandas as pd
+from dotenv import load_dotenv
+dotenv.load_dotenv()
 
 # Try to import and initialize Groq with error handling
 try:
@@ -17,8 +17,8 @@ try:
     def create_groq_client(api_key):
         try:
             return Groq(api_key=api_key)
-        except Exception:
-            st.error("Groq client initialization failed. Please update the groq package: `pip install --upgrade groq`")
+        except Exception as e:
+            st.error(f"Groq client initialization failed. Please update the groq package: `pip install --upgrade groq`: {e}")
             return None
 
 except ImportError:
@@ -62,8 +62,7 @@ class AlternativePackage:
 class Config:
     """Configuration for API keys and thresholds"""
     # It's recommended to use environment variables for API keys
-    GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
-
+    GROQ_API_KEY = os.environ["GROQ_API_KEY"]
     # Thresholds
     STALE_DAYS_THRESHOLD = 365
     VERY_STALE_DAYS_THRESHOLD = 730

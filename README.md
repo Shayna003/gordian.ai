@@ -1,1 +1,62 @@
-# gordian.ai
+<div align="center">
+    <h1>Gordian.ai</h1>
+    <p>An AI-powered smart `npm` package dependency visualizer and analyzer</p>
+    <br />
+    <img src="">
+    <br />
+    <br />
+    <a href="gordian.streamlit.app">View Demo</a>
+    &middot;
+    <a href="https://github.com/shayna003/gordian.ai/issues/new?labels=bug">Report Bug</a>
+    &middot;
+    <a href="https://github.com/shayna003/gordian.ai/issues/new?labels=enhancement">Request Feature</a>
+</div>
+
+## Features
+
+## Getting Started
+1. clone this repo and `cd` into it
+```sh
+git clone https://github.com/Shayna003/gordian.ai.git
+# or
+git clone git@github.com:Shayna003/gordian.ai.git
+```
+```sh
+cd gordian.ai
+```
+2. set up python environment
+```sh
+python3 -m venv gordian
+source gordian/bin/activate
+pip install -r requirements.txt
+pip list
+```
+3. set up API keys
+- rename `.env.example` file to `.env` and fill out the API keys:
+```
+GROQ_API_KEY=""
+```
+- register an account on https://console.groq.com
+- upgrade to developer plan on https://console.groq.com/settings/billing/plans
+- go back to https://console.groq.com/landing/hackathon 
+- click the "Apply for API credits" button and fill out a form
+- when asked for the promo code, fill in `RAISE2025`
+- wait for approval for API credits to arrive into your account
+- you should then see 10$ API credits under "Coupons" of this page: https://console.groq.com/settings/billing/manage
+
+4. run streamlit to host the website
+```sh
+streamlit run main.py
+```
+## License
+Distributed under the MIT License.
+
+## Built With
+- Groq
+- Llama
+- Blackbox.ai
+- Neo4j
+- Streamlit
+- Python
+
+## Contributors
