@@ -48,6 +48,11 @@ GROQ_API_KEY=""
 ```sh
 streamlit run main.py
 ```
+
+## Usage
+For local project dependency analysis, upload a `package.json` or `package-lock.json` file. 
+- Example file: [npm cli](https://github.com/npm/cli/blob/latest/package.json)
+
 ## License
 Distributed under the MIT License.
 
@@ -58,5 +63,13 @@ Distributed under the MIT License.
 - Neo4j
 - Streamlit
 - Python
+- LangGraph
 
-## Contributors
+## Our Team
+We are team [Lisa Mona](https://lablab.ai/event/raise-your-hack/lisa-mona-blackboxai-track) of [Lablab.ai Raise your Hack](https://lablab.ai/event/raise-your-hack)
+- [Shayna003](https://github.com/shayna003)
+- [samueltckong](https://github.com/samueltckong)
+- [ErajT](https://github.com/ErajT)
+- [BoyPit](https://github.com/BoyPit)
+- [Robertmez03](https://github.com/Robertmez03)
+- [Shreya-b21](https://github.com/Shreya-b21)
