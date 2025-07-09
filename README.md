@@ -70,6 +70,3 @@ We are team [Lisa Mona](https://lablab.ai/event/raise-your-hack/lisa-mona-blackb
 - [Shayna003](https://github.com/shayna003)
 - [samueltckong](https://github.com/samueltckong)
 - [Robertmez03](https://github.com/Robertmez03)
-- [ErajT](https://github.com/ErajT)
-- [Shreya-b21](https://github.com/Shreya-b21)
-- [BoyPit](https://github.com/BoyPit)
