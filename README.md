@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Gordian.ai</h1>
-    <p>An AI-powered smart `npm` package dependency visualizer and analyzer</p>
+    <p>AI-powered npm package dependency visualizer and analyzer, to assist software developmenet in the npm ecosystem.</p>
     <br />
     <img src="https://github.com/Shayna003/gordian.ai/blob/main/demo.png">
     <br />
